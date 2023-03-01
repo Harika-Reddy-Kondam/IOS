@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3750E5FD29AE418100F1EDF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3750E5FC29AE418100F1EDF5 /* AppDelegate.swift */; };
+		3750E5FF29AE418100F1EDF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3750E5FE29AE418100F1EDF5 /* SceneDelegate.swift */; };
+		3750E60129AE418100F1EDF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3750E60029AE418100F1EDF5 /* ViewController.swift */; };
+		3750E60429AE418100F1EDF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3750E60229AE418100F1EDF5 /* Main.storyboard */; };
+		3750E60629AE418200F1EDF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3750E60529AE418200F1EDF5 /* Assets.xcassets */; };
+		3750E60929AE418200F1EDF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3750E60729AE418200F1EDF5 /* LaunchScreen.storyboard */; };
+		3750E61429AE418300F1EDF5 /* Kondam_SurgeryCostAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3750E61329AE418300F1EDF5 /* Kondam_SurgeryCostAppTests.swift */; };
+		3750E61E29AE418300F1EDF5 /* Kondam_SurgeryCostAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3750E61D29AE418300F1EDF5 /* Kondam_SurgeryCostAppUITests.swift */; };
+		3750E62029AE418300F1EDF5 /* Kondam_SurgeryCostAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3750E61F29AE418300F1EDF5 /* Kondam_SurgeryCostAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3750E61029AE418300F1EDF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3750E5F129AE418100F1EDF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3750E5F829AE418100F1EDF5;
+			remoteInfo = Kondam_SurgeryCostApp;
+		};
+		3750E61A29AE418300F1EDF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3750E5F129AE418100F1EDF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3750E5F829AE418100F1EDF5;
+			remoteInfo = Kondam_SurgeryCostApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3750E5F929AE418100F1EDF5 /* Kondam_SurgeryCostApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kondam_SurgeryCostApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3750E5FC29AE418100F1EDF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3750E5FE29AE418100F1EDF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3750E60029AE418100F1EDF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3750E60329AE418100F1EDF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3750E60529AE418200F1EDF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3750E60829AE418200F1EDF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3750E60A29AE418200F1EDF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3750E60F29AE418300F1EDF5 /* Kondam_SurgeryCostAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kondam_SurgeryCostAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3750E61329AE418300F1EDF5 /* Kondam_SurgeryCostAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kondam_SurgeryCostAppTests.swift; sourceTree = "<group>"; };
+		3750E61929AE418300F1EDF5 /* Kondam_SurgeryCostAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kondam_SurgeryCostAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3750E61D29AE418300F1EDF5 /* Kondam_SurgeryCostAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kondam_SurgeryCostAppUITests.swift; sourceTree = "<group>"; };
+		3750E61F29AE418300F1EDF5 /* Kondam_SurgeryCostAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kondam_SurgeryCostAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3750E5F629AE418100F1EDF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3750E60C29AE418300F1EDF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3750E61629AE418300F1EDF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3750E5F029AE418100F1EDF5 = {
+			isa = PBXGroup;
+			children = (
+				3750E5FB29AE418100F1EDF5 /* Kondam_SurgeryCostApp */,
+				3750E61229AE418300F1EDF5 /* Kondam_SurgeryCostAppTests */,
+				3750E61C29AE418300F1EDF5 /* Kondam_SurgeryCostAppUITests */,
+				3750E5FA29AE418100F1EDF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3750E5FA29AE418100F1EDF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3750E5F929AE418100F1EDF5 /* Kondam_SurgeryCostApp.app */,
+				3750E60F29AE418300F1EDF5 /* Kondam_SurgeryCostAppTests.xctest */,
+				3750E61929AE418300F1EDF5 /* Kondam_SurgeryCostAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3750E5FB29AE418100F1EDF5 /* Kondam_SurgeryCostApp */ = {
+			isa = PBXGroup;
+			children = (
+				3750E5FC29AE418100F1EDF5 /* AppDelegate.swift */,
+				3750E5FE29AE418100F1EDF5 /* SceneDelegate.swift */,
+				3750E60029AE418100F1EDF5 /* ViewController.swift */,
+				3750E60229AE418100F1EDF5 /* Main.storyboard */,
+				3750E60529AE418200F1EDF5 /* Assets.xcassets */,
+				3750E60729AE418200F1EDF5 /* LaunchScreen.storyboard */,
+				3750E60A29AE418200F1EDF5 /* Info.plist */,
+			);
+			path = Kondam_SurgeryCostApp;
+			sourceTree = "<group>";
+		};
+		3750E61229AE418300F1EDF5 /* Kondam_SurgeryCostAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3750E61329AE418300F1EDF5 /* Kondam_SurgeryCostAppTests.swift */,
+			);
+			path = Kondam_SurgeryCostAppTests;
+			sourceTree = "<group>";
+		};
+		3750E61C29AE418300F1EDF5 /* Kondam_SurgeryCostAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3750E61D29AE418300F1EDF5 /* Kondam_SurgeryCostAppUITests.swift */,
+				3750E61F29AE418300F1EDF5 /* Kondam_SurgeryCostAppUITestsLaunchTests.swift */,
+			);
+			path = Kondam_SurgeryCostAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3750E5F829AE418100F1EDF5 /* Kondam_SurgeryCostApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3750E62329AE418300F1EDF5 /* Build configuration list for PBXNativeTarget "Kondam_SurgeryCostApp" */;
+			buildPhases = (
+				3750E5F529AE418100F1EDF5 /* Sources */,
+				3750E5F629AE418100F1EDF5 /* Frameworks */,
+				3750E5F729AE418100F1EDF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kondam_SurgeryCostApp;
+			productName = Kondam_SurgeryCostApp;
+			productReference = 3750E5F929AE418100F1EDF5 /* Kondam_SurgeryCostApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3750E60E29AE418300F1EDF5 /* Kondam_SurgeryCostAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3750E62629AE418300F1EDF5 /* Build configuration list for PBXNativeTarget "Kondam_SurgeryCostAppTests" */;
+			buildPhases = (
+				3750E60B29AE418300F1EDF5 /* Sources */,
+				3750E60C29AE418300F1EDF5 /* Frameworks */,
+				3750E60D29AE418300F1EDF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3750E61129AE418300F1EDF5 /* PBXTargetDependency */,
+			);
+			name = Kondam_SurgeryCostAppTests;
+			productName = Kondam_SurgeryCostAppTests;
+			productReference = 3750E60F29AE418300F1EDF5 /* Kondam_SurgeryCostAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3750E61829AE418300F1EDF5 /* Kondam_SurgeryCostAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3750E62929AE418300F1EDF5 /* Build configuration list for PBXNativeTarget "Kondam_SurgeryCostAppUITests" */;
+			buildPhases = (
+				3750E61529AE418300F1EDF5 /* Sources */,
+				3750E61629AE418300F1EDF5 /* Frameworks */,
+				3750E61729AE418300F1EDF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3750E61B29AE418300F1EDF5 /* PBXTargetDependency */,
+			);
+			name = Kondam_SurgeryCostAppUITests;
+			productName = Kondam_SurgeryCostAppUITests;
+			productReference = 3750E61929AE418300F1EDF5 /* Kondam_SurgeryCostAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3750E5F129AE418100F1EDF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3750E5F829AE418100F1EDF5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3750E60E29AE418300F1EDF5 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3750E5F829AE418100F1EDF5;
+					};
+					3750E61829AE418300F1EDF5 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3750E5F829AE418100F1EDF5;
+					};
+				};
+			};
+			buildConfigurationList = 3750E5F429AE418100F1EDF5 /* Build configuration list for PBXProject "Kondam_SurgeryCostApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3750E5F029AE418100F1EDF5;
+			productRefGroup = 3750E5FA29AE418100F1EDF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3750E5F829AE418100F1EDF5 /* Kondam_SurgeryCostApp */,
+				3750E60E29AE418300F1EDF5 /* Kondam_SurgeryCostAppTests */,
+				3750E61829AE418300F1EDF5 /* Kondam_SurgeryCostAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3750E5F729AE418100F1EDF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3750E60929AE418200F1EDF5 /* LaunchScreen.storyboard in Resources */,
+				3750E60629AE418200F1EDF5 /* Assets.xcassets in Resources */,
+				3750E60429AE418100F1EDF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3750E60D29AE418300F1EDF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3750E61729AE418300F1EDF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3750E5F529AE418100F1EDF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3750E60129AE418100F1EDF5 /* ViewController.swift in Sources */,
+				3750E5FD29AE418100F1EDF5 /* AppDelegate.swift in Sources */,
+				3750E5FF29AE418100F1EDF5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3750E60B29AE418300F1EDF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3750E61429AE418300F1EDF5 /* Kondam_SurgeryCostAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3750E61529AE418300F1EDF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3750E61E29AE418300F1EDF5 /* Kondam_SurgeryCostAppUITests.swift in Sources */,
+				3750E62029AE418300F1EDF5 /* Kondam_SurgeryCostAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3750E61129AE418300F1EDF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3750E5F829AE418100F1EDF5 /* Kondam_SurgeryCostApp */;
+			targetProxy = 3750E61029AE418300F1EDF5 /* PBXContainerItemProxy */;
+		};
+		3750E61B29AE418300F1EDF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3750E5F829AE418100F1EDF5 /* Kondam_SurgeryCostApp */;
+			targetProxy = 3750E61A29AE418300F1EDF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3750E60229AE418100F1EDF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3750E60329AE418100F1EDF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3750E60729AE418200F1EDF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3750E60829AE418200F1EDF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3750E62129AE418300F1EDF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3750E62229AE418300F1EDF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3750E62429AE418300F1EDF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kondam_SurgeryCostApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Kondam-SurgeryCostApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3750E62529AE418300F1EDF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kondam_SurgeryCostApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Kondam-SurgeryCostApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3750E62729AE418300F1EDF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Kondam-SurgeryCostAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kondam_SurgeryCostApp.app/Kondam_SurgeryCostApp";
+			};
+			name = Debug;
+		};
+		3750E62829AE418300F1EDF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Kondam-SurgeryCostAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kondam_SurgeryCostApp.app/Kondam_SurgeryCostApp";
+			};
+			name = Release;
+		};
+		3750E62A29AE418300F1EDF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Kondam-SurgeryCostAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kondam_SurgeryCostApp;
+			};
+			name = Debug;
+		};
+		3750E62B29AE418300F1EDF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Kondam-SurgeryCostAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kondam_SurgeryCostApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3750E5F429AE418100F1EDF5 /* Build configuration list for PBXProject "Kondam_SurgeryCostApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3750E62129AE418300F1EDF5 /* Debug */,
+				3750E62229AE418300F1EDF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3750E62329AE418300F1EDF5 /* Build configuration list for PBXNativeTarget "Kondam_SurgeryCostApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3750E62429AE418300F1EDF5 /* Debug */,
+				3750E62529AE418300F1EDF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3750E62629AE418300F1EDF5 /* Build configuration list for PBXNativeTarget "Kondam_SurgeryCostAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3750E62729AE418300F1EDF5 /* Debug */,
+				3750E62829AE418300F1EDF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3750E62929AE418300F1EDF5 /* Build configuration list for PBXNativeTarget "Kondam_SurgeryCostAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3750E62A29AE418300F1EDF5 /* Debug */,
+				3750E62B29AE418300F1EDF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3750E5F129AE418100F1EDF5 /* Project object */;
+}
